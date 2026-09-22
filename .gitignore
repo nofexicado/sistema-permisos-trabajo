@@ -1,0 +1,10 @@
+node_modules/
+.env
+uploads/
+logs/
+*.log
+*.dump
+*.sql.bak
+*.bak
+*.bak2*
+.DS_Store

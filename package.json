@@ -1,0 +1,21 @@
+{
+  "name": "pdt-backend",
+  "version": "1.0.0",
+  "description": "Backend de Permisos de Trabajo (PDT) - ACME Industrial",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "set-passwords": "node scripts/set-passwords.js",
+    "resetear-produccion": "node scripts/resetear-produccion.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cookie-parser": "^1.4.6",
+    "multer": "^2.0.0",
+    "dotenv": "^16.4.5"
+  }
+}
